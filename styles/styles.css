@@ -1,0 +1,55 @@
+/* Global */
+:root {
+    --promo-bar: #1E2C20;
+    --card-smoke: #000000;
+    --color-text: #292828;
+    --hover-nav-sale: #982A1C;
+    --text-accent: #B73A2A;
+    --option-one-card: #EA2D2C;
+    --option-two-card:#FB5108;
+    --option-three-card: #D29D12;
+    --card-selector: #353535;
+    --text-navbar: #353535;
+    /* --hover-nav: #353535; */
+    --hover-nav: #982A1C;
+    --color-bg: #EDEDED;
+    --sec-text: #FFFFFF;
+}
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+
+/* Nav Start */
+.nav-image{
+    width: 25%;
+    margin: 20px 50px;
+}
+.nav-link{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    margin: 0 30px;
+    color: var(--text-navbar);
+}
+.nav-link:hover{
+    color: var(--hover-nav);
+}
+.sale-link{
+    color: var(--text-accent);
+}
+
