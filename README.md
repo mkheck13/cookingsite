@@ -1,4 +1,4 @@
-# Puppy Restaurant
+# Cookware Website
 
 **Description**: Create a functioning website using bootstrap, flex and grid based off a mockup that was provided.
 ![Design preview for the Cookware Website]()
