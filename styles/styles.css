@@ -1,7 +1,7 @@
 /* Global */
 :root {
     --promo-bar: #1E2C20;
-    --card-smoke: #000000;
+    --card-stroke: #000000;
     --color-text: #292828;
     --hover-nav-sale: #982A1C;
     --text-accent: #B73A2A;
@@ -36,7 +36,7 @@
 
 /* Nav Start */
 .nav-image{
-    width: 25%;
+    width: 20%;
     margin: 20px 50px;
 }
 .nav-link{
@@ -48,8 +48,44 @@
 }
 .nav-link:hover{
     color: var(--hover-nav);
+    text-decoration: underline;
 }
 .sale-link{
     color: var(--text-accent);
 }
+/* Nav End */
 
+/* Hero Start */
+.hero-size{
+  width: 100%;
+}
+.hero-text{
+  color: var(--sec-text);
+  position: absolute;
+  top: 750px;
+  left: 4%;
+}
+.hero-text h1{
+  background-color: var(--card-stroke);
+  opacity: 80%;
+  padding: 20px 35px;
+  border-radius: 0;
+  margin: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+.hero-foot{
+  background-color: var(--promo-bar);
+  color: var(--sec-text);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  padding: 20px 0 5px;
+}
+/* Hero End */
+
+/* Cooking Start */
+.cooking-section{
+  display: flex;
+  justify-content: center;
+}
