@@ -55,7 +55,7 @@
     color: var(--text-navbar);
 }
 .nav-link:hover{
-    color: var(--hover-nav);
+    color: var(--option-two-card);
     text-decoration: underline;
 }
 .sale-link{
@@ -134,8 +134,13 @@
 .arrival-image{
   width: 100%;
   height: 550px;
-object-fit: fill;
+  object-fit: fill; 
+  display: block;
 }
+
+
+
+
 span{
   font-weight: bold;
 }
