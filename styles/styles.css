@@ -1,4 +1,4 @@
-/* Global */
+/* Global Start*/
 :root {
     --promo-bar: #1E2C20;
     --card-stroke: #000000;
@@ -40,7 +40,9 @@
     font-weight: 700;
     font-size: 60px;
     text-align: center;
+    margin-top: 100px;
   }
+  /* Global End */
 
 
 /* Nav Start */
@@ -137,10 +139,6 @@
   object-fit: fill; 
   display: block;
 }
-
-
-
-
 span{
   font-weight: bold;
 }
@@ -166,3 +164,64 @@ span{
 .d-4{
   background-color: var(--card-selector);
 }
+/* Arrivals End */
+
+/* Best Sellers Start */
+.seller-card{
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 20PX;
+  width: auto;
+}
+.seller-image{
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+.seller-text{
+  padding: 0;
+}
+.seller-btn{
+  margin-top: 30px;
+  border: 1px solid black;
+}
+.seller-btn:hover{
+  filter: invert(1);
+  border: 1px solid black;
+}
+.sauce-text{
+  margin-bottom: 65px;
+}
+/* Best Sellers End */
+
+/* Review Start */
+.review-card{
+  min-height: 60vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+}
+.review-image1{
+  background-image: url(/assets/Reviews1.jpg);
+}
+.review-image2{
+  background-image: url(/assets/Reviews2.jpg);
+}
+.review-image3{
+  background-image: url(/assets/Reviews3.jpg);
+}
+.review-box{
+  background-color: var(--card-stroke);
+  color: var(--sec-text);
+  opacity: 0.7;
+  margin: 134px;
+  text-align: center;
+  padding: 60px;
+  width: 75%;
+  border-radius: 5px;
+}
+.review-text{
+  text-align: start;
+}
+/* Review End */
