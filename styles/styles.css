@@ -173,6 +173,10 @@ ul {
   height: 550px;
   object-fit: fill;
   display: block;
+  background-color: #000000;
+}
+.arrival-image:hover{
+  filter: brightness(75%);
 }
 
 span {
@@ -209,14 +213,12 @@ span {
 /* Arrivals End */
 
 /* Best Sellers Start */
-.seller-container{
-  
-}
 .seller-card {
   border: 1px solid black;
   border-radius: 10px;
   padding: 20PX;
-  width: auto;
+  max-width: 31rem;
+  margin-bottom: 30px;
 }
 
 .seller-image {
@@ -252,10 +254,12 @@ span {
 
 .review-card {
   min-height: 60vh;
+  width: 460px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   border-radius: 5px;
+  margin-bottom: 30px;
 }
 
 .review-image1 {
