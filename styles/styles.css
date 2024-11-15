@@ -93,8 +93,7 @@ ul {
   object-fit: contain;
 }
 .hero-box{
-  background-color: var(--card-stroke);
-  opacity: 70%;
+  background-color: rgba(0, 0, 0, 0.6);
   padding: 20px 40px;
   border-radius: 0;
   margin: 35rem 0 0 6rem;
@@ -276,9 +275,8 @@ span {
 }
 
 .review-box {
-  background-color: var(--card-stroke);
+  background-color: rgba(0, 0, 0, 0.6);
   color: var(--sec-text);
-  opacity: 0.7;
   margin: 134px;
   text-align: center;
   padding: 60px;
@@ -365,5 +363,9 @@ footer {
   .foot-social {
     grid-row: 1;
     grid-column: 1/3;
+  }
+  .cook-card{
+    margin-left: auto;
+    margin-right: auto;
   }
 }

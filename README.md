@@ -23,20 +23,20 @@
 - [] moble no main margins on the left and right 
 
 **Hero Image**
-- [] the text look slightly transpernet 
+- [X] the text look slightly transpernet 
 - [] the textbox is way to pushed of the left and could use readjusting 
 
 **Start Cooking**
 - [] warped issure where theres 3 in one row and 1 in the second row (recommeend puting them inside a container)
 - [] all the cook card are all under eachother when on moble 425px 
-- [] on smaller screens the margin left is a set pixle amount would recommend puting maring-left:auto and right:auto
+- [X] on smaller screens the margin left is a set pixle amount would recommend puting maring-left:auto and right:auto
 
 **New Arrivals**
 - [] looks all squished up whe at moble 425 px
 
 **Reviews**:
 - [] there are slight container issues with the 2 of the reviews are on top and 1 of the reviews is under them
-- [] the text look slightly transpernet 
+- [X] the text look slightly transpernet 
 - [] the reviews get cut off at smaller screens
 
 **Footer** 
