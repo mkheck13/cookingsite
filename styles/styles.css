@@ -250,6 +250,7 @@ span {
 /* Review Start */
 .review-container {
   margin-bottom: 70px;
+  overflow: hidden;
 }
 
 .review-card {
@@ -263,15 +264,15 @@ span {
 }
 
 .review-image1 {
-  background-image: url(/assets/Reviews1.jpg);
+  background-image: url(../assets/Reviews1.jpg);
 }
 
 .review-image2 {
-  background-image: url(/assets/Reviews2.jpg);
+  background-image: url(../assets/Reviews2.jpg);
 }
 
 .review-image3 {
-  background-image: url(/assets/Reviews3.jpg);
+  background-image: url(../assets/Reviews3.jpg);
 }
 
 .review-box {
